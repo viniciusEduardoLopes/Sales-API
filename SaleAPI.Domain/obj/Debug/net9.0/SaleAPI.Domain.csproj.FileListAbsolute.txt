@@ -1,0 +1,11 @@
+C:\dev\SalesAPI\SaleAPI.Domain\bin\Debug\net9.0\SaleAPI.Domain.deps.json
+C:\dev\SalesAPI\SaleAPI.Domain\bin\Debug\net9.0\SaleAPI.Domain.dll
+C:\dev\SalesAPI\SaleAPI.Domain\bin\Debug\net9.0\SaleAPI.Domain.pdb
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\SaleAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\SaleAPI.Domain.AssemblyInfoInputs.cache
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\SaleAPI.Domain.AssemblyInfo.cs
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\SaleAPI.Domain.csproj.CoreCompileInputs.cache
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\SaleAPI.Domain.dll
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\refint\SaleAPI.Domain.dll
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\SaleAPI.Domain.pdb
+C:\dev\SalesAPI\SaleAPI.Domain\obj\Debug\net9.0\ref\SaleAPI.Domain.dll

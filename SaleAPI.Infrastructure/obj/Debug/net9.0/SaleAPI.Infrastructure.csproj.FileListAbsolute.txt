@@ -1,0 +1,17 @@
+C:\dev\SalesAPI\SaleAPI.Infrastructure\bin\Debug\net9.0\SaleAPI.Infrastructure.deps.json
+C:\dev\SalesAPI\SaleAPI.Infrastructure\bin\Debug\net9.0\SaleAPI.Infrastructure.runtimeconfig.json
+C:\dev\SalesAPI\SaleAPI.Infrastructure\bin\Debug\net9.0\SaleAPI.Infrastructure.dll
+C:\dev\SalesAPI\SaleAPI.Infrastructure\bin\Debug\net9.0\SaleAPI.Infrastructure.pdb
+C:\dev\SalesAPI\SaleAPI.Infrastructure\bin\Debug\net9.0\SaleAPI.Domain.dll
+C:\dev\SalesAPI\SaleAPI.Infrastructure\bin\Debug\net9.0\SaleAPI.Domain.pdb
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.AssemblyInfo.cs
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI..50D77C16.Up2Date
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.dll
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\refint\SaleAPI.Infrastructure.dll
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.pdb
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\SaleAPI.Infrastructure.genruntimeconfig.cache
+C:\dev\SalesAPI\SaleAPI.Infrastructure\obj\Debug\net9.0\ref\SaleAPI.Infrastructure.dll
