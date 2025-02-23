@@ -1,1 +1,1 @@
-# Sales-API
+# SalesAPI
