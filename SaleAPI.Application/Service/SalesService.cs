@@ -13,10 +13,14 @@ namespace SaleAPI.Application.Service
     public class SalesService : ISalesService
     {
         private readonly ISalesRepository _salesRepository;
+        private readonly SalesProductsService _salesProductsService;
+        private readonly IClientsRepository _clientsRepository;
 
-        public SalesService(ISalesRepository salesRepository)
+        public SalesService(ISalesRepository salesRepository, SalesProductsService salesProductsService, IClientsRepository clientsRepository)
         {
             _salesRepository = salesRepository;
+            _salesProductsService = salesProductsService;
+            _clientsRepository = clientsRepository;
         }
 
         public async Task<IEnumerable<SalesDTO>> GetAllAsync()
@@ -51,24 +55,30 @@ namespace SaleAPI.Application.Service
 
         public async Task AddAsync(SalesDTO saleDTO)
         {
+            var client = await _clientsRepository.GetByIdAsync(saleDTO.ClientId);
+            if (client == null)
+                throw new Exception("Cliente não encontrado!");
+
             var sale = new Sale
             {
                 ClientId = saleDTO.ClientId,
+                Client = client,
                 SaleDate = DateTime.Now,
-                //Products = saleDTO.Products,
-                //SalesProducts = saleDTO.SalesProducts,
-                //TotalPrice = saleDTO.SalesProducts.Select(p => p.Product).ToList().Select(s => s.Price).Sum(),
+                Amount=saleDTO.Amount,
+                TotalPrice = saleDTO.TotalPrice
             };
 
             await _salesRepository.AddAsync(sale);
+
+            await _salesProductsService.AddAsync(sale.Id, saleDTO.Products);
         }
 
         public async Task UpdateAsync(SalesDTO saleDTO)
         {
             var sale = new Sale
             {
-                SaleUpdate = DateTime.Now,
-                TotalPrice = saleDTO.Products.Select(p => p.Price).Sum(),
+                SaleUpdate = DateTime.Now
+                
             };
             await _salesRepository.UpdateAsync(sale);
         }

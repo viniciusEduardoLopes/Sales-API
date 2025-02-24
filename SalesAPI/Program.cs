@@ -19,11 +19,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<ISalesService, SalesService>();
 builder.Services.AddScoped<IClientsService, ClientsService>();
 builder.Services.AddScoped<IProductsService, ProductsService>();
+builder.Services.AddScoped<SalesProductsService>();
 
 // Registrar os repositório
 builder.Services.AddScoped<ISalesRepository, SalesRepository>();
 builder.Services.AddScoped<IClientsRepository, ClientsRepository>();
 builder.Services.AddScoped<IProductsRepository, ProductsRepository>();
+builder.Services.AddScoped<ISalesProductsRepository, SalesProductsRepository>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

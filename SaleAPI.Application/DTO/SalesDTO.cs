@@ -10,7 +10,7 @@ namespace SaleAPI.Application.DTO
     public class SalesDTO
     {
         public int Id { get; set; }
-        public List<Product> Products { get; set; } = new List<Product>();
+        public List<SalesProductsDTO> Products { get; set; } = new List<SalesProductsDTO>();
         public int ClientId { get; set; }
         public string ClientName { get; set; } = string.Empty;
         public decimal Amount { get; set; }
